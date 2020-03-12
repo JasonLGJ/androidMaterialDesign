@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search"
+        android:icon="@mipmap/ic_search_white"
+        android:title="Search"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/setting"
+        android:icon="@mipmap/chat_setting"
+        android:title="Setting"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/add"
+        android:icon="@mipmap/icon_add"
+        android:title="Add"
+        app:showAsAction="never"/>
+
+</menu>

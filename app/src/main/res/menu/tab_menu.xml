@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tab_chat"
+        android:icon="@mipmap/tab_chat_normal"
+        android:title="@string/tab_chat" />
+
+    <item
+        android:id="@+id/tab_contacts"
+        android:icon="@mipmap/tab_contacts_normal"
+        android:title="@string/tab_contact" />
+
+    <item
+        android:id="@+id/tab_find"
+        android:icon="@mipmap/tab_chat_normal"
+        android:title="@string/tab_find" />
+
+    <item
+        android:id="@+id/tab_me"
+        android:icon="@mipmap/tab_me_normal"
+        android:title="@string/tab_me" />
+</menu>
