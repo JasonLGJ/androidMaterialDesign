@@ -1,11 +1,9 @@
-package com.spaceon.conbox.contact.model;
+package com.Jason.materialdesign.model;
 
-import com.google.gson.annotations.SerializedName;
-import com.spaceon.conbox.utils.PinyinUtils;
-import com.spaceon.smslibrary.db.BaseDbData;
+
+import com.Jason.materialdesign.widget.PinyinUtils;
 
 import java.io.Serializable;
-
 
 /**
  * Copyright (c) 2003,成都天奥信息科技有限公司
@@ -15,24 +13,18 @@ import java.io.Serializable;
  * 编写人：李广金
  * 开始日期：2020.03.13
  */
-public class ContactData extends BaseDbData implements Serializable, Comparable<ContactData> {
+public class ContactData implements Serializable, Comparable<ContactData> {
 
-    @SerializedName("userId")
     int userId;
 
-    @SerializedName("contactId")
     int contactId;
 
-    @SerializedName("contactName")
     String userName;
 
-    @SerializedName("contactMobileNo")
     String phoneNum;
 
-    @SerializedName("countryCode")
     int cityCode;
 
-    @SerializedName("thumbnailUrl")
     String portrait;
 
     private String pinyin;

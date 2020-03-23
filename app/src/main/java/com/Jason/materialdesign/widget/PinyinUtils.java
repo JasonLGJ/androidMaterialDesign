@@ -1,4 +1,4 @@
-package com.spaceon.conbox.utils;
+package com.Jason.materialdesign.widget;
 
 
 import net.sourceforge.pinyin4j.PinyinHelper;
@@ -6,7 +6,6 @@ import net.sourceforge.pinyin4j.format.HanyuPinyinOutputFormat;
 import net.sourceforge.pinyin4j.format.HanyuPinyinVCharType;
 import net.sourceforge.pinyin4j.format.exception.BadHanyuPinyinOutputFormatCombination;
 
-import org.apache.commons.lang3.StringUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -42,7 +41,7 @@ public final class PinyinUtils
      */
     public static String getPinyin(String word)
     {
-        if (StringUtils.isEmpty(word))
+        if (null == word || word.length() == 0)
         {
             return "";
         }
@@ -67,7 +66,7 @@ public final class PinyinUtils
 
     public static List<String> getPinyinFull(String word)
     {
-        if (StringUtils.isEmpty(word))
+        if (null == word || word.length() == 0)
         {
             return null;
         }

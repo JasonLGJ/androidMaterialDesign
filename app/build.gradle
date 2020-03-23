@@ -30,4 +30,5 @@ dependencies {
 
     //引入第三方库，如butterknife
     implementation 'com.google.android.material:material:1.1.0'
+    implementation 'com.github.open-android:pinyin4j:2.5.0'
 }

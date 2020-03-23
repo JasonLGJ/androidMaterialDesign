@@ -12,4 +12,5 @@
     <color name="main_color">#0065b4</color>
     <color name="dividerColor">#dadada</color>
     <color name="gray">#AAAAAA</color>
+    <color name="textColor">#686868</color>
 </resources>
